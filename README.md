@@ -1,4 +1,5 @@
 # CSS-Project
 ## This repository contains basic CSS project.
 
-## [Ordhekdeen Clone](http://ordhekdeen.infinityfreeapp.com/)
+## Click the link below
+[Ordhekdeen Clone](http://ordhekdeen.infinityfreeapp.com/)
