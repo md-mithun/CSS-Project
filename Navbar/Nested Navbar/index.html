@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nested Navbar</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a>
+                <div class="nav1">
+                    <ul>
+                        <li>Vission</li>
+                        <li>Mission</li>
+                        <li>Tusion</li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Services</a>
+                <div class="nav1">
+                    <ul>
+                        <li>Vission</li>
+                        <li>Mission</li>
+                        <li>Tusion</li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Tutorial</a>
+                <div class="nav1">
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">UI/UX</a></li>
+                        <li class="nested-li"><a href="#">Python ></a>
+                            <div class="nav2">
+                                <ul>
+                                    <li>Web</li>
+                                    <li>UI/UX</li>
+                                    <li>PHP</li>
+                                    <li>ASP</li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="nested-li"><a href="#">Java ></a>
+                            <div class="nav2">
+                                <ul>
+                                    <li>Web</li>
+                                    <li>UI/UX</li>
+                                    <li>PHP</li>
+                                    <li>ASP</li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="nested-li"><a href="#">PHP ></a>
+                            <div class="nav2">
+                                <ul>
+                                    <li>Web</li>
+                                    <li>UI/UX</li>
+                                    <li>PHP</li>
+                                    <li>ASP</li>
+                                </ul>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
